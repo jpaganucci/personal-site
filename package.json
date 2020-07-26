@@ -1,8 +1,10 @@
 {
   "name": "jpaganucci",
   "scripts": {
-    "dev": "nuxt",
-    "generate": "nuxt build && nuxt export"
+    	"dev": "nuxt",
+	"start": "nuxt start",
+	"build": "nuxt build",	
+    	"generate": "nuxt build && nuxt export"
   },
   "dependencies": {
     "nuxt": "^2.13.3"
