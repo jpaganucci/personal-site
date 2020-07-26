@@ -16,7 +16,20 @@
 </script>
 
 <style>
-  html {
-    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  }
+ 	.fade-enter{
+		opacity: 0;
+	}
+	.fade-enter-active{
+		transition: opacity 1s;
+	}
+	.fade-leave{
+		/* opacity: 1; */
+	}
+	.fade-leave-active{
+		transition: opacity 1s;
+		opacity: 0;
+	} 
+	html {
+    		font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  	}
 </style>
