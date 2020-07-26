@@ -1,7 +1,9 @@
 {
   "name": "jpaganucci",
   "scripts": {
-	"dev": "nuxt",
+	"build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+	"generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build && nuxt export",
+  	"dev": "nuxt",
     	"start": "nuxt start",
     	"build": "nuxt build",
     	"generate": "nuxt build && nuxt export",
