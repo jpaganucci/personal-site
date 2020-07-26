@@ -43,3 +43,6 @@
 ehthumbds.db
 Thumbs.db
 
+# Nuxt #
+########
+.nuxt/*
