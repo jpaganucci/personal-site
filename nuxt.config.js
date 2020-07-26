@@ -1,9 +1,10 @@
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/<repository-name>/'
+    base: '/personal-site/'
   }
 } : {}
 
 export default {
-  ...routerBase
+	...routerBase
+	mode: 'spa'
 }
