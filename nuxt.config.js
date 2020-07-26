@@ -1,3 +1,6 @@
 export default {
-	mode: 'spa'
+	mode: 'spa',
+	router: {
+    		base: '/personal-site/'
+  	}
 }
