@@ -1,12 +1,16 @@
 {
   "name": "jpaganucci",
   "scripts": {
-    	"dev": "nuxt",
-	"start": "nuxt start",
-	"build": "nuxt build",	
-    	"generate": "nuxt build && nuxt export"
+	"dev": "nuxt",
+    	"start": "nuxt start",
+    	"build": "nuxt build",
+    	"generate": "nuxt build && nuxt export",
+	"deploy": "push-dir --dir=dist --branch=master --cleanup"
   },
   "dependencies": {
     "nuxt": "^2.13.3"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1"
   }
 }
