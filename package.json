@@ -5,7 +5,7 @@
     	"start": "nuxt start",
     	"build": "nuxt build",
     	"generate": "nuxt build && nuxt export",
-	"deploy": "push-dir --dir=dist --branch=master --cleanup"
+	"deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "nuxt": "^2.13.3"
