@@ -45,5 +45,5 @@ Thumbs.db
 
 # Nuxt #
 ########
-.nuxt/*
-node_modules/*
+.nuxt/
+node_modules/
