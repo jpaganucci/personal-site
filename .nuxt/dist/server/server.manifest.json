@@ -1,9 +1,0 @@
-{
-  "entry": "server.js",
-  "files": {
-    "server.js": "server.js"
-  },
-  "maps": {
-    "server.js": "server.js.map"
-  }
-}

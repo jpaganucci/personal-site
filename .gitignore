@@ -45,4 +45,5 @@ Thumbs.db
 
 # Nuxt #
 ########
+node_modeles/*
 .nuxt/*
