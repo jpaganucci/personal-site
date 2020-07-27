@@ -14,6 +14,10 @@
     "nuxt": "^2.13.3"
   },
   "devDependencies": {
-    "push-dir": "^0.4.1"
+    "node-sass": "^4.14.1",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "push-dir": "^0.4.1",
+    "sass-loader": "^9.0.2",
+    "vue-style-loader": "^4.1.2"
   }
 }
