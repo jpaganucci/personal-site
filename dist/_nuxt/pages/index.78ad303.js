@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{151:function(t,n,e){"use strict";e.r(n);var l=e(17),component=Object(l.a)({},(function(){var t=this.$createElement,n=this._self._c||t;return n("transition",{attrs:{name:"fade"}},[n("h1",[this._v("Hello world!!")])])}),[],!1,null,null,null);n.default=component.exports}}]);
