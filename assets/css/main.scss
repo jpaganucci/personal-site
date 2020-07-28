@@ -1,0 +1,29 @@
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/bulma";
+
+.title {
+	color: $primary;
+}
+
+// Transitions
+
+.newfade-enter, .newfade-leave-to {
+	opacity: 0;
+}
+.newfade-enter-active, .newfade-leave-active {
+	transition: opacity 0.5s ease;
+}
+
+.shrink-enter-active, .shrink-leave-active {
+  transition-property: width;
+  transition-duration: 5s;
+ }
+
+
+.shrink-leave-to {
+ width: 20px;
+}
+
+.shrink-enter{
+  width: 20px;
+}
