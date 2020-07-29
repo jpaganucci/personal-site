@@ -1,22 +1,42 @@
-<template>
-  <div class="container">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <h1 class="navbar-item">Portfolio</h1>
-        <button class="button navbar-burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-      <div class="navbar-menu">
-        <div class="navbar-end">
-          <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
-          <nuxt-link class="navbar-item" to="/about">About</nuxt-link>
-          <nuxt-link class="navbar-item" to="/projects">Projects</nuxt-link>
-          <nuxt-link class="navbar-item" to="/contact">Contact</nuxt-link>
-        </div>
-      </div>
-    </nav>
-  </div>
+<template>	
+	<div class="navbar is-white" role="navigation" aria-label="main navigation">
+	  <div class="navbar-brand">
+	    <nuxt-link to="/">
+	      <img src="logo-initials.pdf" width=80 height=114 class="navbar-item">
+	    </nuxt-link>
+
+	    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+	      <span aria-hidden="true"></span>
+	      <span aria-hidden="true"></span>
+	      <span aria-hidden="true"></span>
+	    </a>
+	  </div>
+
+	  <div id="navbarBasicExample" class="navbar-menu">
+	    <div class="navbar-end">
+	      <nuxt-link
+			class="navbar-item"
+			v-for="(slug,name) in sectionNames"
+			:key="slug"
+			:to="'/'+slug"
+		>{{ name }}</nuxt-link>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
 </template>
+
+<script>
+export default {
+	data() {
+		return {
+			sectionNames: process.env.navItems
+		}
+	}
+} 
+
+</script>
+
+<style lang="scss">
+</style>

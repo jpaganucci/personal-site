@@ -1,7 +1,8 @@
 <template>
-  <div>
-    <nuxt/>
-  </div>
+	<div>	
+		<navbar></navbar>
+		<nuxt/>
+ 	</div>
 </template>
 
 <script>
