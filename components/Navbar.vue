@@ -10,7 +10,7 @@
 				:class="['navbar-burger burger', {'is-active': isActive}]" 
 				aria-label="menu" 
 				aria-expanded="false" 
-				data-target="navbarBasicExample"
+				data-target="navMenu"
 				v-on:click="menuToggle"
 			>
 	      			<span aria-hidden="true"></span>
@@ -19,7 +19,7 @@
 	    		</a>
 	  	</div>
 
-	  	<div id="navbarBasicExample" class="navbar-menu">
+	  	<div id="navMenu" :class="['navbar-menu', {'is-active': isActive}]">
 	    		<div class="navbar-end">
 	      			<nuxt-link
 					class="navbar-item"
