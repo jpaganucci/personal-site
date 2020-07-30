@@ -10,7 +10,6 @@
 				:class="['navbar-burger burger', {'is-active': isActive}]" 
 				aria-label="menu" 
 				aria-expanded="false" 
-				data-target="navMenu"
 				v-on:click="menuToggle"
 			>
 	      			<span aria-hidden="true"></span>
