@@ -44,6 +44,11 @@ export default {
 		menuToggle: function() {
 			this.isActive = !this.isActive;
 		}	
+	},
+	watch: {
+		$route: function() {
+			this.isActive = false;
+		}
 	}
 } 
 
