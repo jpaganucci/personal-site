@@ -2,7 +2,7 @@
 	<div class="navbar is-white is-transparent" role="navigation" aria-label="main navigation">
 		<div class="navbar-brand">
 	  		<nuxt-link to="/">
-	      			<img src="logo-initials.pdf" width=80 height=114 class="navbar-item">
+	      			<img src="logo-initials.pdf" class="navbar-item" id="brand-logo">
 	    		</nuxt-link>
 
 	    		<a 

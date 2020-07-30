@@ -27,3 +27,23 @@
 .shrink-enter{
   width: 20px;
 }
+
+// navbar
+.navbar {
+	transition: all 0.5s ease-out;
+	.navbar-brand {
+		#brand-logo {
+			background-color: $white;
+			position: fixed;
+			height: 2*$navbar-height;
+			@include mobile {
+				height: $navbar-height
+			}
+		}
+	}
+	@include desktop {
+		width: 80%;
+		left: 10%;
+		margin-bottom: $navbar-height;
+	}
+}
