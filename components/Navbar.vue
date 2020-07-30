@@ -11,7 +11,7 @@
 				aria-label="menu" 
 				aria-expanded="false" 
 				data-target="navbarBasicExample"
-				v-on:click="menuToggle"
+				\\v-on:click="menuToggle"
 			>
 	      			<span aria-hidden="true"></span>
 	      			<span aria-hidden="true"></span>
