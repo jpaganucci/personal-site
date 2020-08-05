@@ -1,16 +1,18 @@
 {
   "name": "jpaganucci",
   "scripts": {
-	"build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
-	"generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build && nuxt export",
-	"build": "nuxt built",
-	"generate": "nuxt build && nuxt export",
-	"dev": "nuxt",
-    	"start": "nuxt start",
-	"deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build && nuxt export",
+    "build": "nuxt built",
+    "generate": "nuxt build && nuxt export",
+    "dev": "nuxt",
+    "start": "nuxt start",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "nuxt": "^2.13.3"
+    "bulma": "^0.9.0",
+    "nuxt": "^2.13.3",
+    "vue-scrollto": "^2.18.2"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",

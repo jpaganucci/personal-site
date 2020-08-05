@@ -45,4 +45,8 @@ export default {
 	css: [
 		'./assets/css/main.scss',
 	],
+
+	plugins: [
+		{ src: '~/plugins/directives.js' },
+	],
 }

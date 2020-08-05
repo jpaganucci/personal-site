@@ -9,5 +9,11 @@
 	</section>
 </template>
 
+<script>
+export default {
+	layout: "home"
+};
+</script>
+
 <style lang="scss">
 </style>
