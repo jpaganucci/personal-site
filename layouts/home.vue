@@ -1,19 +1,22 @@
 <template>
-	<div class="body-content">	
-		<section class="hero is-fullheight" id="frontpage">
-			<div class="hero-head">
-				<navbar></navbar>
+	<div>	
+		<navbar></navbar>
+		<div class="body-content">	
+			<section class="hero is-fullheight-with-navbar" id="frontpage">
+				<div class="hero-head">
+					<Signature/>	
+					<h1>Julia Paganucci</h1>		
+				</div>
+				<div class="hero-body">
+				</div>
+				<div class="hero-footer has-text-centered">
+					<div v-scroll-to="'#main'"></div>		
+				</div>
+			</section>
+			<div id="main">	
+				<nuxt/>
 			</div>
-			<div class="hero-body">
-				<Signature/>	
-			</div>
-			<div class="hero-footer has-text-centered">
-				<div v-scroll-to="'#main'"></div>		
-			</div>
-		</section>
-		<div id="main">	
-			<nuxt/>
- 		</div>
+		</div>
 	</div>
 </template>
 

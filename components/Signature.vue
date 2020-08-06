@@ -1,5 +1,5 @@
 <template>
-	<div id="svgwrapper" class="load-logo">
+	<div id="svgwrapper" class="home-logo">
 		<svg class="logo-path" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492.85 262.79" xml:space="preserve">
 			<defs>
 				<clipPath id="clip-underline">

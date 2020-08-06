@@ -1,8 +1,17 @@
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/bulma";
 
+.body-content {
+	padding-top: $navbar-height
+}
+
 .title {
 	color: $primary;
+}
+
+.home-logo {
+	margin: auto;
+	margin-bottom: 100px;
 }
 
 // Transitions
@@ -33,17 +42,17 @@
 	transition: all 0.5s ease-out;
 	.navbar-brand {
 		#brand-logo {
-			background-color: $white;
 			position: fixed;
-			height: 2*$navbar-height;
-			@include mobile {
-				height: $navbar-height
-			}
+			height: $navbar-height;
+			@include desktop {
+				left: 10%;	
+			};	
 		}
+	};
+	.navbar-menu {
+		height: $navbar-height;	
+		position: fixed;
+		right: 10%;
 	}
-	@include desktop {
-		width: 80%;
-		left: 10%;
-		margin-bottom: $navbar-height;
-	}
+	margin-bottom: $navbar-height !important;
 }
